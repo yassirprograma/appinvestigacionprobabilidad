@@ -1,0 +1,368 @@
+[ 
+      {
+            "idpregunta":"1",
+            "pregunta":"Durante el periodo escolar me he sentido desanimado o triste",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+            
+      },    
+      {
+            "idpregunta":"2",
+            "pregunta":"Durante el periodo escolar me ha resultado complicado mantenerme concentrado a lo que el profesor dice.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"3",
+            "pregunta":"Confio en mis conocimientos para aprobar satisfactoriamente la asignatura de Cálculo.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"4",
+            "pregunta":"Estudio por mi cuenta los temas vistos durante clase",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"5",
+            "pregunta":"Si tengo una duda, prefiero callarla por miedo a que se piense que es una duda tonta.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"6",
+            "pregunta":"Suelo contribuir y solicitar apoyo a mis compañeros cuando no me es posible contactar con el profesor.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+
+      },
+      {
+            "idpregunta":"7",
+            "pregunta":"Durante el periodo escolar he sentido muy poco apetito o me he dado atracones de comida",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+
+      },
+      {
+            "idpregunta":"8",
+            "pregunta":"Cuando no obtengo una calificación por debajo de mi expectativa, tiendo a derrotarme fácilmente.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"9",
+            "pregunta":"Suelo participar en clase y proponer soluciones a los problemas propuestos por el profesor.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+            
+      },
+      {
+            "idpregunta":"10",
+            "pregunta":"No tengo interés en las materias relacionadas a las ciencias exactas.",
+            "categoria":"1",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"             
+      },
+      {
+            "idpregunta":"11",
+            "pregunta":"Llego a tiempo a todas mis clases.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"12",
+            "pregunta":"En casa tengo un lugar designado, limpio y bien iluminado para llevar a cabo todas mis tareas.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"13",
+            "pregunta":"Trabajo o tengo otras responsabilidades que consumen mucho tiempo además del estudio.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"14",
+            "pregunta":"Consumo alimentos de forma regular y moderada.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"15",
+            "pregunta":"Tengo acceso a herramientas propias que faciliten la realización de tareas.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"16",
+            "pregunta":"Me puedo permitir la adquisición de material adicional al curso, incluso cuando este conlleva un precio elevado.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"17",
+            "pregunta":"Suelo buscar apoyo por mi propia cuenta cuando no comprendo las clases impartidas por el profesor.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"18",
+            "pregunta":"Me considero apto para la carrera que estoy estudiando.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"19",
+            "pregunta":"Tengo acceso a todo el material necesario para cursar la asignatura.",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"20",
+            "pregunta":"Duermo por lo menos entre siete y nueve horas antes de comenzar mis clases",
+            "categoria":"2",
+            "porcentaje_categoria":"0.30",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"21",
+            "pregunta":"Mi profesor fomenta el trabajo en equipo sobre el individual.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"22",
+            "pregunta":" Mi profesor dejo en claro la forma de evaluar desde el inicio del curso.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"23",
+            "pregunta":"Mi profesor aplica exámenes de forma imprevista y de forma improvisada.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"24",
+            "pregunta":"Mi profesor muestra dominio en los temas de la asignatura.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"25",
+            "pregunta":"Mi profesor se muestra empático y sensible a mis preocupaciones y la de mis compañeros.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"26",
+            "pregunta":"Mi profesor busca distintas alternativas para explicar un tema que puede resultar complicado de enseñar.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"27",
+            "pregunta":"Mi profesor se muestra inflexible respecto a las fechas de entregas de actividades. ",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"28",
+            "pregunta":"Mi profesor muestra un trato cordial conmigo y mis compañeros.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      },
+      {
+            "idpregunta":"29",
+            "pregunta":"Mi profesor sigue el temario sin detenerse, aunque detecte incertidumbre en nosotros.",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"1",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.75",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.25",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"0"
+      },
+      {
+            "idpregunta":"30",
+            "pregunta":"Mi profesor propone distintos ejercicios para resolver en clase a forma de ejemplo",
+            "categoria":"3",
+            "porcentaje_categoria":"0.35",
+
+            "op_a":"Totalmente de acuerdo", "peso_op_a":"0",
+            "op_b":"Bastante de acuerdo", "peso_op_b":"0.25",
+            "op_c":"Ni de acuerdo ni en desacuerdo", "peso_op_c":"0.50",
+            "op_d":"Bastante en desacuerdo", "peso_op_d":"0.75",
+            "op_e":"Totalmente en desacuerdo", "peso_op_e":"1"
+      }
+
+
+]

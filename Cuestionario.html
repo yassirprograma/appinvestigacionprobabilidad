@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Cuestionario</title>
+        <link rel="stylesheet" href="css/cuestionarios.css">
+        <link rel="stylesheet" href="css/ventana_modal.css">
+
+        <link rel="shortcut icon" href="imgs/icon.png">
+        
+        <script src="./js/jquery-3.6.0.js"></script>
+
+        <script src="./saveinfousuario.js"></script> <!--PARA GUARDAR EN ALMACENAMIENTO LOCAL LA INFOGRMACIÓN DEL USUARIO Y LA UNIDAD TEMÁTICA QUE ELIGIÓ -->
+
+        <script src="./funciones_Cuestionario.js"></script>
+        <script src="./js/utf8.js"></script>
+
+
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!--https://animate.style/-->
+    </head>
+    <body>
+
+
+          <script>
+                        
+                var usuario=getQueryVariable('usuario');                                                
+                usuario=usuario.replaceAll("+"," ");             
+                var boleta=getQueryVariable('boleta'); 
+                                
+          </script>
+
+
+
+
+
+        <header class="animate__animated animate__fadeInLeft">
+            <div id="header" >
+                  
+                  <script>
+                        document.open(); 
+                        //*****************************escribo en el header la información del usuario
+                        
+                        document.write("<h3 class='animate__animated animate__fadeInDown '>Nombre de usuario: "+usuario+"</h3>");                                          
+                        document.write("<h3 class='animate__animated animate__fadeInDown '>Número de boleta: "+boleta+"</h3>");                        
+                        document.close();
+                  </script>
+                  
+                  
+            </div>
+        </header>
+
+        
+
+        <script>
+            cuestionario=cargaBasePreguntas("preguntas.json");                                  
+            console.log(cuestionario);
+        </script>
+
+
+        <div id="main" class="animate__animated animate__fadeInLeft">
+            <form action="" method=""> <!--EN ACTION O METHOD DEBEMOS COLOCAR LA FUNCIÓN O ARCHIVO DE JS QUE VA A PROCESAR EL FORMULARIO-->
+                                       <!--AL ENVIAR EL FORMULARIO DEBE VERIFICARSE QUE TODAS LAS RESPUESTAS ESTÉN CONTESTADAS-->
+
+
+                  <script>
+                        var numPreguntasAleatorias=cuestionario.length;
+                        for(var i=1;i<=numPreguntasAleatorias;i++){ //para generar espacio para todas las preguntas
+                              document.write('<div class="pregunta" id="preg'+i+ '">' );
+                              document.write('     <div class="descripcion" id="desc_preg'+ i+ '">' + '</div>');
+                              document.write('     <br>');
+                              document.write('     <div class="opciones">');
+                              document.write('          <div><span>a. </span><input type="radio" id="a_preg'+ i + '" name="resp_preg'+ i +'" value="a"> <label for="a_preg'+ i +'" id="label_a_preg'+i+'"></label> <br><br></div>');
+                              document.write('          <div><span>b. </span><input type="radio" id="b_preg'+ i + '" name="resp_preg'+ i +'" value="b"> <label for="b_preg'+ i +'" id="label_b_preg'+i+'"></label> <br><br></div>');
+                              document.write('          <div><span>c. </span><input type="radio" id="c_preg'+ i + '" name="resp_preg'+ i +'" value="c"> <label for="c_preg'+ i +'" id="label_c_preg'+i+'"></label> <br><br></div>');
+                              document.write('          <div><span>d. </span><input type="radio" id="d_preg'+ i + '" name="resp_preg'+ i +'" value="d"> <label for="d_preg'+ i +'" id="label_d_preg'+i+'"></label> <br><br></div>');      
+                              document.write('          <div><span>e. </span><input type="radio" id="e_preg'+ i + '" name="resp_preg'+ i +'" value="e"> <label for="e_preg'+ i +'" id="label_e_preg'+i+'"></label> <br><br></div>');                                          
+                              document.write('     </div>');
+                              document.write('</div>');
+                              document.write('<br><br>')
+                        }
+                  </script>
+                                                                                                                                                                                       
+                   <!--
+                <div class="pregunta" id="preg1">  
+                  <div class="descripcion" id="desc_preg1">
+                      
+                  </div>
+                 
+                  <br>
+                  <div class="opciones">                        
+                      <div><span>a.</span><input type="radio" id="a_preg1" name="resp_preg1" value="a"> <label for="a_preg1" id="label_a_preg1"></label> <br><br></div>
+                      <div><span>b.</span><input type="radio" id="b_preg1" name="resp_preg1" value="b"> <label for="b_preg1" id="label_b_preg1"></label> <br><br></div>
+                      <div><span>c.</span><input type="radio" id="c_preg1" name="resp_preg1" value="c"> <label for="c_preg1" id="label_c_preg1"></label> <br><br></div>
+                      <div><span>d.</span><input type="radio" id="d_preg1" name="resp_preg1" value="d"> <label for="d_preg1" id="label_d_preg1"></label> <br><br></div>
+                  </div>
+              </div> 
+              -->             
+
+                <script>
+                      escribePreguntas(cuestionario);
+                </script>
+
+                <div id="divbotonenviar"><input class="animate__animated animate__pulse animate__infinite" id="botonenviar"  type="button" value="Enviar respuesta"  class="open-modal" data-open="modal" ></div>
+                
+            </form>            
+
+
+
+            <div id="botonvolver">
+                  <a href="./index.html">
+                        <div>
+                              Volver al inicio
+                        </div>
+                  </a>
+            </div>
+
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-dialog">
+                <header class="modal-header">
+                    <p id = "header_resultados">Resultado:</p>
+
+                <button id="botonCerrarModal" class="close-modal" aria-label="close modal" data-close>
+                  ✕  
+                </button>
+                </header>
+            
+
+          
+
+                <div id = "resultados_div"></div>
+           
+                
+
+             </div>
+        </div> 
+          
+    
+                  
+        <script>
+            
+            const isVisible = "is-visible";
+
+            document.getElementById("botonenviar").addEventListener("click", function(){
+                //Esto sucederá cuando se presione el boton enviar
+
+                if(verificarRadios(numPreguntasAleatorias)){//Antes de mostrar resultados comprobamos
+                                                            //que todo esté contestado                          
+                    var respuestas_usuario = obtenerRespuestasUsuario(numPreguntasAleatorias); //obtenemos un arreglo con las respuestas del usuario                    
+                    //alert("OK");                    
+                    console.log(respuestas_usuario);
+                    //alert("Tu probabilidad de aprobar la materia de Cálculo 1 es de aproximadamente:  " + (100*(1-sumaponderada(respuestas_usuario, cuestionario))) + "%");
+                    
+                    const modalId = this.dataset.open;          //Estas dos lineas muestran la ventana modal
+                    document.getElementById(modalId).classList.add(isVisible);
+
+                    select_id("resultados_div").innerHTML=("<h2>"+ "Tu probabilidad de aprobar la materia de Cálculo 1 es de aproximadamente:  " + (100*(1-sumaponderada(respuestas_usuario, cuestionario))) + "%" +"</h2>");
+
+                    //Agregamos los eventos para cuando se presione el boton X
+                        document.getElementById("botonCerrarModal").addEventListener("click", function() {
+                        this.parentElement.parentElement.parentElement.classList.remove(isVisible);
+
+                  });
+
+                  document.getElementById("botonenviar").style.display = 'none';
+                  document.getElementById("botonvolver").style.display='block';
+
+                }else
+                    alert("Contesta todas las preguntas, por favor");
+
+
+
+                  
+
+                  document.close();                  
+            });
+        </script>
+
+
+
+
+
+    </body>
+</html>
